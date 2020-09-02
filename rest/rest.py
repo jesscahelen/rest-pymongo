@@ -17,12 +17,12 @@ def index():
 @bottle.route('/teste')
 def home_page():
   mythings = ['apple', 'orange', 'banana', 'peach']
-  return bottle.template('hello_world', {'username':'Jesuka', 'things':mythings})
+  return bottle.template('hello_world', {'username':'Jessica', 'things':mythings})
 
 @bottle.route('/teste2')
 def home_page():
   mythings = ['apple', 'orange', 'banana', 'peach']
-  return bottle.template('hello_world2', {'username':'Jesuka','things':mythings})
+  return bottle.template('hello_world2', {'username':'Jessica','things':mythings})
 
 @bottle.post('/favorite_fruit')
 def favorite_fruit():
